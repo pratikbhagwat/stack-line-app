@@ -128,6 +128,21 @@ tr:hover {
   background-color: #f9f9f9;
 }
 
+.chart-container {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3748; /* Darker text color */
+  margin-bottom: 15px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .content-container {
