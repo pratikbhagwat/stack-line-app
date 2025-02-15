@@ -1,7 +1,8 @@
 import React from "react";
 import ProductInfo from "./components/ProductInfo";
 import SalesChart from "./components/SalesChart";
-import SalesTable from "./components/SalesTable";
+// import SalesTable from "./components/SalesTable";
+import MUISalesTable from "./components/MUISalesTable";
 import salesData from "./data/salesData.json";
 import "./styles/App.css";
 import logo from "./assets/logo.svg"; // Import the logo
@@ -29,7 +30,8 @@ export default function App() {
             <SalesChart sales={product.sales} />
           </div>
           <div className="table-section">
-            <SalesTable sales={product.sales} />
+            {/*<SalesTable sales={product.sales} />*/}
+            <MUISalesTable sales={product.sales} />
           </div>
         </main>
       </div>
